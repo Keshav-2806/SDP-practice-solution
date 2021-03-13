@@ -1,0 +1,12 @@
+let obj={a:1,b:2,c:3};
+let objcopy={...obj};
+console.log(objcopy);
+console.log(obj===objcopy);
+//objcopy.d=4;
+console.log(objcopy);
+console.log(obj);
+console.log(JSON.stringify(obj));
+console.log(JSON.stringify(objcopy));
+console.log(JSON.stringify(obj)===JSON.stringify(objcopy));
+let x=JSON.stringify(obj);
+console.log(typeof x);
